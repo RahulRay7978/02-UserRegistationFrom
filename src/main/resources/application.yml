@@ -1,0 +1,27 @@
+server:
+  port: 1122
+spring:
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: rahuljajpur7978@gmail.com
+    password: barshara
+    properties.mail.smtp:
+                      auth: ture
+                      starttls:
+                         enable: true      
+  jpa:
+    database: ORACLE
+    hibernate.ddl-auto: update
+    show-sql: true
+
+  datasource:
+    platform: oracle
+    driverClassName: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: system
+    password: system

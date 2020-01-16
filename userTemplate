@@ -1,0 +1,4 @@
+hii mr ${NAME} your registration allmost completed click hyperlink to unlock your account.<br>
+ your temporary password is ${PWD} <br>
+ <a href="http://localhost:1122/unlockAccount?email=${EMAILID}">Click to unlock</a><br>
+ 
